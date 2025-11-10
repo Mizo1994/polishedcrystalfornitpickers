@@ -314,11 +314,12 @@ endc
 	learnset 5, GUST ; Sand Attack → Gust
 	learnset 9, MUD_SLAP ; Gust → GSC TM move
 	learnset 13, QUICK_ATTACK
+	learnset 15, WING_ATTACK
 	learnset 17, RAGE ; Whirlwind → RBY TM move
 	learnset 21, CHARM ; Twister → egg move
 	learnset 25, SWIFT ; Feather Dance → TM move
 	learnset 29, AGILITY
-	learnset 33, WING_ATTACK
+	learnset 33, SUPERSONIC
 	learnset 37, ROOST
 	learnset 41, DRILL_PECK ; Tailwind → new move
 	learnset 45, STEEL_WING ; Mirror Move → TM move
@@ -331,11 +332,12 @@ endc
 	learnset 5, GUST ; Sand Attack → Gust
 	learnset 9, MUD_SLAP ; Gust → GSC TM move
 	learnset 13, QUICK_ATTACK
+	learnset 15, WING_ATTACK
 	learnset 17, RAGE ; Whirlwind → RBY TM move
 	learnset 22, CHARM ; Twister → egg move
 	learnset 27, SWIFT ; Feather Dance → TM move
 	learnset 32, AGILITY
-	learnset 37, WING_ATTACK
+	learnset 37, SUPERSONIC
 	learnset 42, ROOST
 	learnset 47, DRILL_PECK ; Tailwind → new move
 	learnset 52, STEEL_WING ; Mirror Move → TM move
@@ -347,11 +349,12 @@ endc
 	learnset 5, MUD_SLAP ; Sand Attack → similar move
 	learnset 9, GUST
 	learnset 13, QUICK_ATTACK
+	learnset 15, WING_ATTACK
 	learnset 17, RAGE ; Whirlwind → RBY TM move
 	learnset 22, CHARM ; Twister → egg move
 	learnset 27, SWIFT ; Feather Dance → TM move
 	learnset 32, AGILITY
-	learnset 38, WING_ATTACK
+	learnset 38, SUPERSONIC
 	learnset 44, ROOST
 	learnset 50, DRILL_PECK ; Tailwind → new move
 	learnset 56, STEEL_WING ; Mirror Move → TM move
@@ -374,6 +377,7 @@ endc
 	learnset 31, DOUBLE_EDGE
 	learnset 34, COUNTER ; Endeavor → egg move
 
+
 	evos_attacks RattataAlolan
 	evo_data EVOLVE_LEVEL, 20, RATICATE, ALOLAN_FORM
 	learnset 1, TACKLE
@@ -390,6 +394,7 @@ endc
 	learnset 31, DOUBLE_EDGE
 	learnset 34, COUNTER ; Endeavor → egg move
 
+
 	evos_attacks RaticatePlain
 	learnset 1, SCARY_FACE ; evolution move
 	learnset 1, SWORDS_DANCE
@@ -404,6 +409,9 @@ endc
 	learnset 24, CRUNCH
 	learnset 29, FEINT_ATTACK ; Assurance → similar move
 	learnset 34, SUPER_FANG
+	learnset 36, THUNDERPUNCH
+	learnset 36, ICE_PUNCH
+	learnset 36, FIRE_PUNCH
 	learnset 39, DOUBLE_EDGE
 	learnset 44, COUNTER ; Endeavor → egg move
 
@@ -414,6 +422,7 @@ endc
 	learnset 4, LEER
 	learnset 8, PURSUIT
 	learnset 11, FURY_STRIKES ; Fury Attack → similar move
+	learnset 13, SONIC_BOOM
 	learnset 15, AERIAL_ACE
 	learnset 18, SWIFT ; Mirror Move → TM move
 	learnset 22, FEINT_ATTACK ; Assurance → similar move
@@ -467,6 +476,9 @@ endc
 	learnset 20, ACID
 	learnset 27, DISABLE ; Stockpile + Spit Up + Swallow → egg move
 	learnset 32, PURSUIT ; Acid Spray → egg move
+	learnset 36, THUNDERPUNCH
+	learnset 36, ICE_PUNCH
+	learnset 36, FIRE_PUNCH
 	learnset 39, POISON_JAB ; Mud Bomb → TM move
 	learnset 44, LEECH_LIFE ; Gastro Acid → TM move
 	learnset 48, IRON_TAIL ; Belch → TM move
@@ -2841,7 +2853,7 @@ endc
 	evos_attacks Magikarp
 	evo_data EVOLVE_LEVEL, 20, GYARADOS, NO_FORM ; preserve pre-evo form
 	learnset 1, SPLASH
-	learnset 15, TACKLE
+	learnset 1, TACKLE
 	learnset 30, REVERSAL ; Flail → event move
 
 	evos_attacks Gyarados
