@@ -1,5 +1,5 @@
 RooftopSaleData1:
-	dbw 6
+	db 6
 	dbw HP_UP,   3000
 	dbw PROTEIN, 3000
 	dbw IRON,    3000
