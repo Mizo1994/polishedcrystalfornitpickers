@@ -354,7 +354,6 @@ IronHeadDescription:
 ZenHeadbuttDescription:
 ExtrasensoryDescription:
 DarkPulseDescription:
-AstonishDescription:
 IcicleCrashDescription:
 	text "An attack that may"
 	next "cause flinching."
@@ -427,6 +426,7 @@ FlameChargeDescription:
 	next "up user's Speed."
 	done
 
+RageDescription:
 AncientpowerDescription:
 	text "An attack that may"
 	next "raise all stats."
@@ -830,6 +830,7 @@ ToxicSpikesDescription:
 	next "they switch in."
 	done
 
+AstonishDescription:
 QuickAttackDescription:
 	text "Lets the user get"
 	next "in the first hit."
@@ -980,10 +981,6 @@ EarthquakeDescription:
 	next "vs. flying foes."
 	done
 
-RageDescription:
-	text "Raises Attack if"
-	next "the user is hit."
-	done
 
 TeleportDescription:
 	text "A move for fleeing"
