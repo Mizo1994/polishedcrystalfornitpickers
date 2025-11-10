@@ -20,6 +20,7 @@ ElemFangUsers:
 	dp GLIGAR
 	dp GLISCOR
 	dp STEELIX
+	dp RATICATE
 	dp SNUBBULL
 	dp GRANBULL
 	dp SWINUB
