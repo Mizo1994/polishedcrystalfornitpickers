@@ -275,6 +275,7 @@ CrabhammerDescription:
 SlashDescription:
 AeroblastDescription:
 CrossChopDescription:
+CutDescription:
 NightSlashDescription:
 ShadowClawDescription:
 StoneEdgeDescription:
@@ -879,11 +880,6 @@ VineWhipDescription:
 DragonClawDescription:
 	text "Slashes the foe"
 	next "with sharp claws."
-	done
-
-CutDescription:
-	text "Cuts using claws,"
-	next "scythes, etc."
 	done
 
 XScissorDescription:
