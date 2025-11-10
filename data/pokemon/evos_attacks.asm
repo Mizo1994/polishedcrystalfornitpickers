@@ -3001,7 +3001,7 @@ endc
 	learnset 62, ZAP_CANNON
 
 	evos_attacks Omanyte
-	evo_data EVOLVE_LEVEL, 40, OMASTAR
+	evo_data EVOLVE_LEVEL, 33, OMASTAR
 	learnset 1, WRAP ; Constrict → similar move
 	learnset 1, DEFENSE_CURL ; Withdraw → similar move
 	learnset 7, BITE
@@ -3011,6 +3011,7 @@ endc
 	learnset 25, ROLLOUT ; Mud Shot → Rollout
 	learnset 28, BUBBLE_BEAM ; Brine → egg move
 	learnset 34, PROTECT
+	learnset 36, ICE_PUNCH
 	learnset 37, ANCIENTPOWER
 	learnset 43, AURORA_BEAM ; Tickle → egg move
 	learnset 46, ROCK_BLAST
@@ -3029,6 +3030,7 @@ endc
 	learnset 25, ROLLOUT ; Mud Shot → Rollout
 	learnset 28, BUBBLE_BEAM ; Brine → egg move
 	learnset 34, PROTECT
+	learnset 36, ICE_PUNCH
 	learnset 37, ANCIENTPOWER
 	learnset 48, SPIKES ; Tickle → new move
 	learnset 56, ROCK_BLAST
@@ -3037,7 +3039,7 @@ endc
 	learnset 86, POWER_GEM ; new move
 
 	evos_attacks Kabuto
-	evo_data EVOLVE_LEVEL, 40, KABUTOPS
+	evo_data EVOLVE_LEVEL, 33, KABUTOPS
 	learnset 1, SCRATCH
 	learnset 1, DEFENSE_CURL ; Harden → similar move
 	learnset 6, ABSORB
@@ -3083,6 +3085,9 @@ endc
 	learnset 17, AGILITY
 	learnset 25, ANCIENTPOWER
 	learnset 33, CRUNCH
+	learnset 36, THUNDERPUNCH
+	learnset 36, ICE_PUNCH
+	learnset 36, FIRE_PUNCH
 	learnset 41, TAKE_DOWN
 	learnset 49, BRAVE_BIRD ; Sky Drop → new move
 	learnset 57, IRON_HEAD
