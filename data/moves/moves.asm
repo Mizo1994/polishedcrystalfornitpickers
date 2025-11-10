@@ -171,7 +171,7 @@ else
 endc
 	move TRICK_ROOM,      EFFECT_TRICK_ROOM,          0, PSYCHIC,    -1,  5,   0, STATUS
 	move SKILL_SWAP,      EFFECT_SKILL_SWAP,          0, PSYCHIC,    -1, 10,   0, STATUS
-	move LICK,            EFFECT_PARALYZE_HIT,       30, GHOST,     100, 30,  30, PHYSICAL
+	move LICK,            EFFECT_PARALYZE_HIT,       50, GHOST,     100, 20,  30, PHYSICAL
 	move GUNK_SHOT,       EFFECT_POISON_HIT,        120, POISON,     80,  5,  30, PHYSICAL
 	move VENOSHOCK,       EFFECT_CONDITIONAL_BOOST,  65, POISON,    100, 10,   0, SPECIAL
 	move EARTH_POWER,     EFFECT_SP_DEF_DOWN_HIT,    90, GROUND,    100, 10,  10, SPECIAL
