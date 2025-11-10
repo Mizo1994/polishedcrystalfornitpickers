@@ -6025,7 +6025,7 @@ endc
 	evos_attacks Feebas
 	evo_data EVOLVE_HAPPINESS, TR_ANYTIME, MILOTIC
 	learnset 1, SPLASH
-	learnset 15, TACKLE
+	learnset 1, TACKLE
 	learnset 30, REVERSAL ; Flail → event move
 
 	evos_attacks Milotic
@@ -6047,6 +6047,7 @@ endc
 	learnset 44, RAIN_DANCE
 	learnset 48, HYDRO_PUMP
 	learnset 52, HYPER_BEAM
+	learnset 60, MOONBLAST
 
 	evos_attacks Beldum
 	evo_data EVOLVE_LEVEL, 20, METANG
